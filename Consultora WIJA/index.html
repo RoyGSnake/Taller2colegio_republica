@@ -24,11 +24,15 @@
                   <img class="tamano-iconos" src="./fig/email.png" alt="" />
                 </figure>
               </li>
-              <li class="tex-correo">
+
+			<li class="tex-correo">
                 <input
-                  type="email"
-                  class="entrada"
-                  placeholder="correo@filipinas.cl"
+					type="email" id="email"
+					pattern=".+@filipinas\.cl" size="30"
+					type="email"
+					class="entrada"
+					placeholder="correo@filipinas.cl"
+					required
                 />
               </li>
             </ul>
@@ -45,6 +49,7 @@
                   type="password"
                   class="entrada"
                   placeholder="contraseña"
+				  required
                 />
               </li>
             </ul>
